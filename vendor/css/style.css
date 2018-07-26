@@ -1589,12 +1589,133 @@ hr {
 #footer .credits a {
   color: #0c2e8a;
 }
-
+/*--------------------------------------------------------------
+# Class for delete uploads image
+--------------------------------------------------------------*/
 
 .del {
   float: right;
   margin-right: 15px;
 }
+
+/*--------------------------------------------------------------
+# Pagination for gallery
+--------------------------------------------------------------*/
+.pagination {
+  justify-content: center;
+}
+.pagination .active a {
+  color: #143361;
+  background-color: transparent;
+  font-weight: 600;
+}
+.pagination .active a:hover {
+  background-color: transparent;
+  color: #143361;
+  border: 0;
+}
+.pagination .active a:focus {
+  background-color: transparent;
+  color: #143361;
+  outline: none;
+}
+.pagination li a {
+  border: 1px;
+  color: #2dc899;
+  padding: 7px 2px;
+  margin: 15px;
+
+}
+.pagination li a:hover {
+  background-color: transparent;
+  color: #143361;
+  padding-bottom: 2px;
+  border-bottom: 1px solid;
+}
+.pagination li a:focus {
+  outline: none;
+  background-color: transparent;
+}
+.pagination li:first-child a, .pagination li:last-child a {
+  border: 2px solid #143361 !important;
+  border-radius: 6px;
+  padding: 6px 12px;
+  border: 2px solid;
+  font-size: 14px;
+  color: #143361;
+
+}
+.pagination li:first-child a:hover, .pagination li:last-child a:hover {
+  text-decoration: none !important;
+  color: #fff;
+  background-color: #143361;
+}
+.pagination li:first-child a:focus, .pagination li:last-child a:focus {
+  outline: none;
+}
+@media only screen and ( max-width: 64.063em ) {
+  .pagination li:first-child a:hover,
+  .pagination li:last-child a:hover {
+    /* screen readers only */
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .pagination li:nth-of-type(2) a { border-left-width: 1px; }
+
+}
+
+@media only screen and ( max-width: 40.063em ) {
+  .pagination li  {
+    /* screen readers only */
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .pagination li.current,
+  .pagination li:first-of-type,
+  .pagination li:last-of-type,
+  .pagination li:nth-of-type(2),
+  .pagination li:nth-last-of-type(2){
+    position: initial;
+    top: initial;
+    left: initial;
+  }
+
+  .pagination li:nth-of-type(2) a { border-left-width: 0; }
+
+}
+
+@media only screen and ( max-width: 30.063em ) {
+
+  h1 { font-size: 1.35em !important; }
+
+  .pagination li:first-child,
+  .pagination li:last-child {
+    /* screen readers only */
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .pagination li:nth-of-type(2) a { border-left-width: 1px; }
+
+}
+
+@media only screen and ( max-width: 15.063em ) {  /* For watches? */
+
+  .pagination li { width: 50%;}
+
+  .pagination li.current {
+    width: 100%;
+    border-left-width: 1px;
+
+  }
+
+}
+
 
 /*--------------------------------------------------------------
 # table no more

@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f756fd7d-2b88-47ae-8af1-ac88919e5bab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/admin/admin_img.php" afterPath="$PROJECT_DIR$/parts/admin/admin_img.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/galery.php" afterPath="$PROJECT_DIR$/parts/galery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/css/style.css" afterPath="$PROJECT_DIR$/vendor/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +30,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="323" column="14" lean-forward="true" selection-start-line="323" selection-start-column="14" selection-end-line="323" selection-end-column="14" />
+            <state relative-caret-position="1008">
+              <caret line="348" column="27" lean-forward="true" selection-start-line="348" selection-start-column="27" selection-end-line="348" selection-end-column="27" />
               <folding>
                 <element signature="n#!!block;n#adminLogin#0" expanded="false" />
                 <element signature="n#!!block;n#adminLogout#0" expanded="false" />
@@ -44,25 +47,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_img.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin_img.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parts/admin/admin_img.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="19" column="180" lean-forward="true" selection-start-line="19" selection-start-column="180" selection-end-line="19" selection-end-column="180" />
               <folding>
-                <element signature="e#603#622#0#HTML" expanded="true" />
-                <element signature="e#1474#1493#0#HTML" expanded="true" />
+                <element signature="e#649#668#0#HTML" expanded="true" />
+                <element signature="e#1565#1584#0#HTML" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="galery.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parts/galery.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="66" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -79,11 +72,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="galery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/parts/galery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+            <state relative-caret-position="428">
+              <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -102,18 +105,18 @@
       <file leaf-file-name="request.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/request.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="182" column="38" lean-forward="true" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
+            <state relative-caret-position="320">
+              <caret line="217" column="0" lean-forward="true" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vendor/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="1592" column="0" lean-forward="true" selection-start-line="1592" selection-start-column="0" selection-end-line="1592" selection-end-column="0" />
+            <state relative-caret-position="1010">
+              <caret line="1630" column="17" lean-forward="true" selection-start-line="1630" selection-start-column="17" selection-end-line="1630" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -122,7 +125,7 @@
       <file leaf-file-name="ClassImage.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/ClassImage.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="360">
               <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <marker date="1532598218534" expanded="true" signature="242:295" ph="INSERT INTO `save_img`... " />
@@ -200,13 +203,13 @@
         <option value="$PROJECT_DIR$/parts/admin/admin_hed.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/request.php" />
-        <option value="$PROJECT_DIR$/vendor/css/style.css" />
-        <option value="$PROJECT_DIR$/parts/admin/admin_img.php" />
         <option value="$PROJECT_DIR$/vendor/js/script.js" />
         <option value="$PROJECT_DIR$/includes/ClassImage.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/parts/galery.php" />
         <option value="$PROJECT_DIR$/parts/slider.php" />
+        <option value="$PROJECT_DIR$/parts/admin/admin_img.php" />
+        <option value="$PROJECT_DIR$/parts/galery.php" />
+        <option value="$PROJECT_DIR$/vendor/css/style.css" />
       </list>
     </option>
   </component>
@@ -357,12 +360,12 @@
       <workItem from="1532329953169" duration="24023000" />
       <workItem from="1532417504805" duration="13373000" />
       <workItem from="1532503599119" duration="22422000" />
-      <workItem from="1532590233846" duration="9205000" />
+      <workItem from="1532590233846" duration="14441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="373431000" />
+    <option name="totallyTimeSpent" value="378667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -656,10 +659,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="44" column="75" lean-forward="true" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/ClassImage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <marker date="1532598218534" expanded="true" signature="242:295" ph="INSERT INTO `save_img`... " />
+            <marker date="1532598218534" expanded="true" signature="567:608" ph="SELECT * FRO... save_img" />
+            <marker date="1532598218534" expanded="true" signature="823:864" ph="SELECT * FRO... save_img" />
+            <marker date="1532598218534" expanded="true" signature="1082:1118" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="323" column="14" lean-forward="true" selection-start-line="323" selection-start-column="14" selection-end-line="323" selection-end-column="14" />
+        <state relative-caret-position="1008">
+          <caret line="348" column="27" lean-forward="true" selection-start-line="348" selection-start-column="27" selection-end-line="348" selection-end-column="27" />
           <folding>
             <element signature="n#!!block;n#adminLogin#0" expanded="false" />
             <element signature="n#!!block;n#adminLogout#0" expanded="false" />
@@ -674,18 +698,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/css/style.css">
+    <entry file="file://$PROJECT_DIR$/request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="1592" column="0" lean-forward="true" selection-start-line="1592" selection-start-column="0" selection-end-line="1592" selection-end-column="0" />
+        <state relative-caret-position="320">
+          <caret line="217" column="0" lean-forward="true" selection-start-line="217" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/request.php">
+    <entry file="file://$PROJECT_DIR$/parts/admin/admin_img.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="182" column="38" lean-forward="true" selection-start-line="182" selection-start-column="38" selection-end-line="182" selection-end-column="38" />
+        <state relative-caret-position="360">
+          <caret line="19" column="180" lean-forward="true" selection-start-line="19" selection-start-column="180" selection-end-line="19" selection-end-column="180" />
+          <folding>
+            <element signature="e#649#668#0#HTML" expanded="true" />
+            <element signature="e#1565#1584#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="47" column="34" lean-forward="true" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -694,43 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="44" column="75" lean-forward="true" selection-start-line="44" selection-start-column="75" selection-end-line="44" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="67" lean-forward="true" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/ClassImage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <marker date="1532598218534" expanded="true" signature="242:295" ph="INSERT INTO `save_img`... " />
-            <marker date="1532598218534" expanded="true" signature="567:608" ph="SELECT * FRO... save_img" />
-            <marker date="1532598218534" expanded="true" signature="823:864" ph="SELECT * FRO... save_img" />
-            <marker date="1532598218534" expanded="true" signature="1082:1118" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parts/galery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="66" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -745,14 +743,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parts/admin/admin_img.php">
+    <entry file="file://$PROJECT_DIR$/parts/galery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#603#622#0#HTML" expanded="true" />
-            <element signature="e#1474#1493#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="291">
+          <caret line="30" column="44" lean-forward="true" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1010">
+          <caret line="1630" column="17" lean-forward="true" selection-start-line="1630" selection-start-column="17" selection-end-line="1630" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -12,6 +12,7 @@
                     <div class="form-row">
 
                         <div class="form-group text-center col-md-6">
+                            <h3>Galerija</h3>
                             <input type="file" name="btn1" id="file_slider" class="mb-3 upload" data-value="1"  style="width:100%;">
                                 <ul class="list-group mb-3">
                                     <?php $r = $img->select_where_enum_one(); if($r > 0): while ($t = $r->fetch_assoc()): ?>
@@ -23,6 +24,7 @@
                         </div>
 
                         <div class="form-group text-center col-md-6">
+                            <h3>Slajder</h3>
                             <input type="file" name="btn2" id="file_galery" class="mb-3 upload" data-value="2"  style="width:100%;">
                             <ul class="list-group mb-3">
                                 <?php $r = $img->select_where_enum_two(); if($r > 0): while ($t = $r->fetch_assoc()): ?>
