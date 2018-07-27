@@ -7,6 +7,7 @@ if(file_exists('includes/ClassAdminsCreate.php'))require 'includes/ClassAdminsCr
 if(file_exists('includes/ClassPrice.php'))require 'includes/ClassPrice.php';
 if(file_exists('includes/ClassContactForm.php'))require 'includes/ClassContactForm.php';
 if(file_exists('includes/ClassImage.php'))require 'includes/ClassImage.php';
+if(file_exists('includes/ClassPagination.php'))require 'includes/ClassPagination.php';
 ?>
 
 <?php include 'parts/slider.php'; ?>
