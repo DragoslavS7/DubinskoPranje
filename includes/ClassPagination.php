@@ -38,7 +38,21 @@ class Pagination
 
     /**
      * @param $limit
-     * @return float
+     * @return bool|mysqli_result
+     */
+    public function select_paginate($limit)
+    {
+        global $db;
+
+        $qu = $db->connect();
+        $query = $qu->query("SELECT `img_url` FROM `save_img` WHERE `enum` = 1 LIMIT $limit");
+        return $query;
+    }
+
+
+    /**
+     * @param $limit
+     * @return int
      */
     public function setLimit($limit)    // sets limit and number of pages
     {
@@ -48,8 +62,9 @@ class Pagination
 
         // determines how many pages there will be
         if(!empty($total))
-            return $this->total_pages = ceil($total / $this->limit); //return the paging data
+             $this->total_pages = (int)ceil($total / $this->limit); //return the paging data
 
+        return $this->total_pages;
     }
 
     /**
@@ -57,15 +72,16 @@ class Pagination
      */
     public function page()   // determine what the current page is also, it returns the current page
     {
-        $page = (int)(isset($_GET['page'])) ? $_GET['page'] : $page = 1;
+        $page = (isset($_GET['page'])) ? (int)$_GET['page'] : $page = 1;
 
         // out of range check
-        if ($page > $this->total_pages) {
-            $page = $this->total_pages;
+        $total = $this->total_pages;
+
+        if ($page > $total) {
+            $page = $total;
         } elseif ($page < 1) {
             $page = 1;
         }
-
 
         return $page;
     }
@@ -73,7 +89,7 @@ class Pagination
 }
 
 $pagination = new Pagination($db);
-$total = $pagination->totalRecords('SELECT COUNT(img_url) FROM save_img WHERE enum = 1');
-$pagination->setLimit(8);
-$page = $pagination->page();
+$total = $pagination->totalRecords('SELECT COUNT(img_url) FROM save_img  WHERE enum = 1');
+$limit = $pagination->setLimit(8);
+$page  = $pagination->page();
 

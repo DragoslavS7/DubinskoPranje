@@ -13,7 +13,7 @@
 
     <div class="container-fluid">
         <div class="row no-gutters mb-4">
-            <?php $r = $img->select_where_enum_one(); if($r > 0): while ($t = $r->fetch_assoc()): ?>
+            <?php $r = $pagination->select_paginate($limit); if($r > 0 ): while ($t = $r->fetch_assoc()): ?>
             <div class="col-lg-3 col-md-4">
                 <div class="portfolio-item wow fadeInUp">
                     <a href="../upload/<?php echo $t['img_url']; ?>" class="portfolio-popup">
@@ -31,15 +31,15 @@
             <div class="col-lg-12 col-md-4">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
-                        <?php if ($page > 1): $prevpage = $page -1 ?>
+                        <?php if ($page > 0): $prevpage = $page -1  ?>
                         <li>
-                            <a href="?page=<?php echo $prevpage ?>" class="previous" aria-label="Previous">
+                            <a href="?page=<?php echo $prevpage; ?>" class="previous" aria-label="Previous">
                                 <span aria-hidden="true"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
                             </a>
                         </li>
                         <?php endif; ?>
-                        <?php for ($i = 1; $i<=$pagination->setLimit(8); $i++): ?>
-                        <li class="active"><a href="?page=<?php echo $i;  ?>"><?php echo $i; ?></a></li>
+                        <?php for ($i = 1; $i<=$page; $i++): ?>
+                        <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
                         <?php endfor; ?>
                         <?php  if ($page < $total): $nextpage = $page + 1 ?>
                         <li>
@@ -53,7 +53,6 @@
             </div>
         </div>
 
-    </div>
     </div>
 
 </section><!-- #portfolio -->

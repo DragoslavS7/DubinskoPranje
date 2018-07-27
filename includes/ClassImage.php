@@ -29,6 +29,7 @@ class ClassImage{
         return $query;
     }
 
+
     /**
      * @return bool|mysqli_result
      */
