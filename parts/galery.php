@@ -31,30 +31,28 @@
             <div class="col-lg-12 col-md-4">
                 <nav aria-label="Page navigation example">
                     <ul class="pagination">
+                        <?php if ($page > 1): $prevpage = $page -1 ?>
                         <li>
-                            <a href="#" class="previous" aria-label="Previous">
+                            <a href="?page=<?php echo $prevpage ?>" class="previous" aria-label="Previous">
                                 <span aria-hidden="true"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
                             </a>
                         </li>
-                        <li class="active"><a href="#">01</a></li>
-                        <li><a href="#">02</a></li>
-                        <li><a href="#">03</a></li>
-                        <li><a href="#">04</a></li>
-                        <li><a href="#">05</a></li>
-                        <li><a href="#">06</a></li>
-                        <li><a href="#">07</a></li>
-                        <li><a href="#">08</a></li>
-                        <li><a href="#">09</a></li>
-                        <li><a href="#">10</a></li>
+                        <?php endif; ?>
+                        <?php for ($i = 1; $i<=$pagination->setLimit(8); $i++): ?>
+                        <li class="active"><a href="?page=<?php echo $i;  ?>"><?php echo $i; ?></a></li>
+                        <?php endfor; ?>
+                        <?php  if ($page < $total): $nextpage = $page + 1 ?>
                         <li>
-                            <a href="#" aria-label="Next">
+                            <a href="?page=<?php echo $nextpage; ?>" aria-label="Next">
                                 <span aria-hidden="true"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
                             </a>
                         </li>
+                        <?php endif; ?>
                     </ul>
                 </nav>
             </div>
         </div>
+
     </div>
     </div>
 
