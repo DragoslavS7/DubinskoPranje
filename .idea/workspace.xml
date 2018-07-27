@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f756fd7d-2b88-47ae-8af1-ac88919e5bab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includes/ClassPagination.php" afterPath="$PROJECT_DIR$/includes/ClassPagination.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/galery.php" afterPath="$PROJECT_DIR$/parts/galery.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,11 +59,11 @@
       <file leaf-file-name="ClassPagination.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/includes/ClassPagination.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+            <state relative-caret-position="486">
+              <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               <folding>
-                <marker date="1532683359488" expanded="true" signature="1460:1495" ph="SELECT COUNT... save_img" />
-                <marker date="1532683359488" expanded="true" signature="1460:1510" ph="SELECT COUNT... save_img" />
+                <marker date="1532683639120" expanded="true" signature="1644:1679" ph="SELECT COUNT... save_img" />
+                <marker date="1532683639120" expanded="true" signature="1644:1694" ph="SELECT COUNT... save_img" />
               </folding>
             </state>
           </provider>
@@ -301,12 +299,12 @@
       <workItem from="1532417504805" duration="13373000" />
       <workItem from="1532503599119" duration="22422000" />
       <workItem from="1532590233846" duration="21678000" />
-      <workItem from="1532676657463" duration="6695000" />
+      <workItem from="1532676657463" duration="6974000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392599000" />
+    <option name="totallyTimeSpent" value="392878000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="24" width="1857" height="1092" extended-state="6" />
@@ -700,11 +698,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/ClassPagination.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+        <state relative-caret-position="486">
+          <caret line="27" column="47" lean-forward="false" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
           <folding>
-            <marker date="1532683359488" expanded="true" signature="1460:1495" ph="SELECT COUNT... save_img" />
-            <marker date="1532683359488" expanded="true" signature="1460:1510" ph="SELECT COUNT... save_img" />
+            <marker date="1532683639120" expanded="true" signature="1644:1679" ph="SELECT COUNT... save_img" />
+            <marker date="1532683639120" expanded="true" signature="1644:1694" ph="SELECT COUNT... save_img" />
           </folding>
         </state>
       </provider>

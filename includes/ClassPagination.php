@@ -13,12 +13,19 @@ class Pagination
     // total number of pages needed
     private $total_pages;
 
+    /**
+     * Pagination constructor.
+     * @param $db
+     */
     public function __construct($db) {
         $this->db = $db->connect();
     }
 
-    // determines the total number of records in table
-    public function totalRecords($query)
+    /**
+     * @param $query
+     * @return int
+     */
+    public function totalRecords($query)    // determines the total number of records in table
     {
         $stmt = $this->db->query($query);
 
@@ -29,8 +36,11 @@ class Pagination
         return $total;
     }
 
-    // sets limit and number of pages
-    public function setLimit($limit)
+    /**
+     * @param $limit
+     * @return float
+     */
+    public function setLimit($limit)    // sets limit and number of pages
     {
         $this->limit = $limit;
 
@@ -42,12 +52,12 @@ class Pagination
 
     }
 
-    // determine what the current page is also, it returns the current page
-    public function page()
+    /**
+     * @return int
+     */
+    public function page()   // determine what the current page is also, it returns the current page
     {
         $page = (int)(isset($_GET['page'])) ? $_GET['page'] : $page = 1;
-
-        var_dump($page);
 
         // out of range check
         if ($page > $this->total_pages) {
