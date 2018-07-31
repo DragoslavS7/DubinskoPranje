@@ -28,6 +28,7 @@
                             <input type="file" name="btn2" id="file_galery" class="mb-3 upload" data-value="2"  style="width:100%;">
                             <ul class="list-group mb-3">
                                 <?php $r = $img->select_where_enum_two(); if($r > 0): while ($t = $r->fetch_assoc()): ?>
+                                    <input type="hidden" name="fid" id="fid" value="<?php echo $t['id']; ?>">
                                     <li class="list-group-item mb-1"><a href="#"><?php echo $t['img_url']; ?></a><a href="#" class="del"><i class="ion-android-delete"></i></a> </li>
                                 <?php endwhile; endif; ?>
                             </ul>

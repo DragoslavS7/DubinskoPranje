@@ -7,6 +7,12 @@
     <meta content="" name="keywords">
     <meta content="Dubinsko Pranje" name="description">
 
+    <meta property="og:title" content="Dubinsko Pranje" />
+    <meta property="og:url" content="dubinsko-ms.ga" />
+    <meta property="og:description" content="SERVIS ZA PRUŽANJE PROFESIONALNIH USLUGA DUBINSKOG PRANJA NAMEŠTAJA, VOZILA, ITISONA I ODRŽAVANJE POSLOVNIH PROSTORA. USLUGE PRANJA OBAVLJAMO PROFESIONALNIM MAŠINAMA UZ UPOTREBU NAJKVALITETNIJIH SREDSTAVA ZA PRANJE KAKO BI POSTIGLI VRHUNSKE REZULTATE. HVALA NA POSETI !!! ">
+    <meta property="og:image" content="/img/portfolio/1.jpg">
+    <meta property="og:type" content="article" />
+
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
     <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -32,6 +38,18 @@
 
 <body id="body">
 
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/sr_RS/sdk.js#xfbml=1&version=v3.1&appId=1958087324253413&autoLogAppEvents=1';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+
 <!--==========================
   Top Bar
 ============================-->
@@ -41,6 +59,7 @@
             <i class="fa fa-envelope-o"></i> <a href="mailto:stolestole990@gmail.com">stolestole990@gmail.com</a>
             <i class="fa fa-phone"></i> (+381) 64/ 068 - 80 - 40
         </div>
+
         <div class="social-links float-right">
             <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
             <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>

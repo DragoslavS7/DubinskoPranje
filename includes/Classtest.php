@@ -1,9 +1,12 @@
 <?php
+require(dirname(__FILE__) . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'config.php');
+
 class Pagination{
 
     public $db;
     public $per_page;
     public $current_page;
+    public $sql;
 
     //put your code here
     function __construct($db,$per = 8, $current = 1) {
@@ -35,7 +38,7 @@ class Pagination{
     }
     public function previous_page(){
         //move to previous record by subtracting one into the current record
-        return  $this->current_page;
+        return  $this->current_page - 1;
     }
     public function next_page(){
         //mvove to next record by incrementing the current page by one
@@ -53,7 +56,7 @@ class Pagination{
     function results() {
         $off = $this->offset();
         $per = $this->per_page;
-        $query = $this->execute_query("SELECT img_url FROM save_img WHERE enum = 1 LIMIT $off, $per");
+        $query = $this->execute_query("SELECT img_url FROM save_img LIMIT $off, $per");
         while ($result = mysqli_fetch_array($query)) {
             $data[] = $result;
         }
@@ -65,5 +68,7 @@ $pagination = new Pagination($db);
 $prev  = $pagination->previous_page();
 $next  = $pagination->next_page();
 $total = $pagination->count_rows();
-$res   = $pagination->results();
+$limit = $pagination->results();
+var_dump($prev,$next,$total,$limit);
 
+?>

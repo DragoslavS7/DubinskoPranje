@@ -10,6 +10,12 @@
             <a href="#about" class="btn-get-started scrollto">O nama</a>
             <a href="#portfolio" class="btn-projects scrollto">Nas portfolio</a>
         </div>
+
+        <!-- Your like button code -->
+        <div class="box text-center" style="margin-right: 35px;">
+            <div class="fb-like" data-href="https://dubinsko-ms.ga" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true">
+            </div>
+        </div>
     </div>
 
     <div id="intro-carousel" class="owl-carousel" >

@@ -1,4 +1,5 @@
 <!-- Include all files for customer pages-->
+
 <?php require_once 'header.php'; ?>
 
 <?php
