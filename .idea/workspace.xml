@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f756fd7d-2b88-47ae-8af1-ac88919e5bab" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/admin/admin_home.php" afterPath="$PROJECT_DIR$/parts/admin/admin_home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/comments.php" afterPath="$PROJECT_DIR$/parts/comments.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/js/script.js" afterPath="$PROJECT_DIR$/vendor/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parts/galery.php" afterPath="$PROJECT_DIR$/parts/galery.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,14 +25,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassPagination.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassPagination.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/includes/ClassPagination.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="230">
+              <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
               <folding>
-                <marker date="1533046138890" expanded="true" signature="1580:1631" ph="SELECT COUNT... save_img" />
-                <marker date="1533046138890" expanded="true" signature="1915:1971" ph="SELECT img_u... save_img" />
+                <marker date="1533219041860" expanded="true" signature="1580:1631" ph="SELECT COUNT... save_img" />
+                <marker date="1533219041860" expanded="true" signature="1915:1971" ph="SELECT img_u... save_img" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galery.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parts/galery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="28" />
+              <folding>
+                <marker date="1533218790032" expanded="true" signature="1921:1958" ph="..." />
               </folding>
             </state>
           </provider>
@@ -109,12 +119,12 @@
         <option value="$PROJECT_DIR$/parts/slider.php" />
         <option value="$PROJECT_DIR$/includes/test.php" />
         <option value="$PROJECT_DIR$/includes/Classtest.php" />
-        <option value="$PROJECT_DIR$/parts/galery.php" />
-        <option value="$PROJECT_DIR$/includes/ClassPagination.php" />
         <option value="$PROJECT_DIR$/parts/comments.php" />
         <option value="$PROJECT_DIR$/parts/admin/admin_img.php" />
         <option value="$PROJECT_DIR$/vendor/js/script.js" />
         <option value="$PROJECT_DIR$/parts/admin/admin_home.php" />
+        <option value="$PROJECT_DIR$/parts/galery.php" />
+        <option value="$PROJECT_DIR$/includes/ClassPagination.php" />
       </list>
     </option>
   </component>
@@ -184,12 +194,6 @@
               <item name="SiteForOOP" type="b2602c69:ProjectViewProjectNode" />
               <item name="SiteForOOP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="parts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="SiteForOOP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SiteForOOP" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="parts" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -272,17 +276,18 @@
       <workItem from="1533211893986" duration="1778000" />
       <workItem from="1533213729897" duration="1783000" />
       <workItem from="1533215542587" duration="1433000" />
-      <workItem from="1533217747254" duration="564000" />
+      <workItem from="1533217747254" duration="1393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="438688000" />
+    <option name="totallyTimeSpent" value="439517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="24" width="1537" height="912" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26729348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26729348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -569,16 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parts/galery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="38" column="63" lean-forward="false" selection-start-line="38" selection-start-column="63" selection-end-line="38" selection-end-column="63" />
-          <folding>
-            <marker date="1533035687822" expanded="true" signature="1865:1902" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parts/admin/admin_changes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -638,11 +633,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/ClassPagination.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="61" column="36" lean-forward="false" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        <state relative-caret-position="230">
+          <caret line="65" column="18" lean-forward="true" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
           <folding>
-            <marker date="1533046138890" expanded="true" signature="1580:1631" ph="SELECT COUNT... save_img" />
-            <marker date="1533046138890" expanded="true" signature="1915:1971" ph="SELECT img_u... save_img" />
+            <marker date="1533219041860" expanded="true" signature="1580:1631" ph="SELECT COUNT... save_img" />
+            <marker date="1533219041860" expanded="true" signature="1915:1971" ph="SELECT img_u... save_img" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parts/galery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="28" />
+          <folding>
+            <marker date="1533218790032" expanded="true" signature="1921:1958" ph="..." />
           </folding>
         </state>
       </provider>

@@ -36,9 +36,10 @@
                                 <span aria-hidden="true"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
                             </a>
                         </li>
-                        <?php for ($i = 1; $i<=$next; $i++): ?>
-                        <li><a href="?page=<?php echo $i; ?>"><?php echo $i; ?></a></li>
-                        <?php endfor; ?>
+
+                        <?php if ($r->num_rows > 0): while ($t = $r->fetch_assoc()): ?>
+                        <li><a href="?page=<?php echo $t['img_url']; ?>"><?php echo $t['img_url']; ?></a></li>
+                        <?php endwhile; endif; ?>
                         <li>
                             <a href="?page=<?php echo $next; ?>" aria-label="Next">
                                 <span aria-hidden="true"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
