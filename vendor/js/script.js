@@ -349,13 +349,13 @@ $(document).ready(function(){
     function background() {
 
        if( mins % 4 === 0 ) {
-           body.css({'background':'url("../../img/bac1.jpg") no-repeat center','width':'100%','background-attachment':'fixed'});
+           body.css({'background':'rgba(75, 112, 74,.6) no-repeat center','width':'100%','background-attachment':'fixed'});
        } else if( mins % 3 === 0 ) {
-           body.css({'background':'url("../../img/bac2.jpg") no-repeat center','width':'100%','background-attachment':'fixed'});
+           body.css({'background':'rgba(86, 119, 119,.6) no-repeat center','width':'100%','background-attachment':'fixed'});
        } else if( mins % 2 === 0 ) {
-           body.css({'background':'url("../../img/bac3.jpg") no-repeat center','width':'100%','background-attachment':'fixed'});
+           body.css({'background':'rgba(84, 76, 89,.6) no-repeat center','width':'100%','background-attachment':'fixed'});
        } else {
-           body.css({'background':'url("../../img/bac1.jpg") no-repeat center','width':'100%','background-attachment':'fixed'});
+           body.css({'background':'rgba(117, 89, 63,.6) no-repeat center','width':'100%','background-attachment':'fixed'});
        }
     }
 
@@ -364,5 +364,13 @@ $(document).ready(function(){
     setInterval(function () {
         mins++;
         background(mins);
-    },5000)
+    },5000);
+
+
+    var disabled = $('.table .add_col');
+    if(disabled.data("quantity") > 0) {
+        disabled.css({'opacity':'0.65','cursor':'not-allowed','pointer-events':'none'});
+    }else{
+        disabled.css({'opacity':'1','cursor':'default','pointer-events':'block'});
+    }
 });

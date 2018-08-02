@@ -1,4 +1,4 @@
-<?php require_once  'admin_hed.php'; ?>
+<?php require_once  'admin_hed.php'; $r = $create->print_customer(); ?>
     <section id="admin_change">
         <div class="container-fluid">
             <div class="box">
@@ -26,15 +26,12 @@
                                             <th scope="col">4.</th>
                                             <th scope="col">Galerija</th>
                                             <th scope="col">Kontakt</th>
-                                            <th scope="col"><a href="admin_create.php" class="btn btn-outline-dark mb-2"><i class="ion-android-add-circle"></i> Dodaj</a</th>
+                                            <th scope="col"><a href="admin_create.php" class="btn btn-outline-dark add_col mb-2" data-quantity="<?php echo $r->num_rows; ?>"><i class="ion-android-add-circle"></i> Dodaj</a></th>
                                             <th scope="col"></th>
                                         </tr>
                                         </thead>
                                         <tbody>
-                                        <?php
-                                        $r = $create->print_customer();
-                                        if($r > 0): while ($t = $r->fetch_assoc()):
-                                        ?>
+                                        <?php if($r > 0): while ($t = $r->fetch_assoc()): ?>
                                         <input type="hidden" name="cid" id="cid" value="<?php echo $t['id']; ?>">
                                         <tr>
                                             <th scope="row"><?php echo $t['id']; ?>.</th>
