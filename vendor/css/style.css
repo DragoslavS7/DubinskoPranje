@@ -1720,7 +1720,7 @@ hr {
 /*--------------------------------------------------------------
 # table no more
 --------------------------------------------------------------*/
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1590px) {
 
   /* Force table to not be like tables anymore */
   #no-more-tables table,
@@ -1772,6 +1772,12 @@ hr {
 .table td, .table th{
   padding: .65rem;
 }
+@media only screen and (min-width: 1590px) {
+.section-header #add-to-pix{
+  display: none;
+}
+}
+
 
 /*--------------------------------------------------------------
 # Box

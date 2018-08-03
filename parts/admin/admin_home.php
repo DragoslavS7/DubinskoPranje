@@ -4,8 +4,8 @@
             <div class="box">
                 <div class="section-header">
                     <h2>Tabela</h2>
+                    <a href="admin_create.php" id='add-to-pix' class="btn btn-outline-dark mb-2" data-val="<?php echo $r->num_rows; ?>"><i class="ion-android-add-circle"></i> Dodaj</a>
                 </div>
-
                 <div class="row">
                     <div class="col-lg-12 col-md-6">
                         <div class="member">

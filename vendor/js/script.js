@@ -368,9 +368,13 @@ $(document).ready(function(){
 
 
     var disabled = $('.table .add_col');
-    if(disabled.data("quantity") > 0) {
+    var dis      = $('.section-header #add-to-pix');
+    if(disabled.data("quantity") > 0 && dis.data("val") > 0) {
         disabled.css({'opacity':'0.65','cursor':'not-allowed','pointer-events':'none'});
+        dis.css({'opacity':'0.65','cursor':'not-allowed','pointer-events':'none'});
     }else{
         disabled.css({'opacity':'1','cursor':'default','pointer-events':'block'});
+        dis.css({'opacity':'1','cursor':'default','pointer-events':'block'});
     }
+
 });
