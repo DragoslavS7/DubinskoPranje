@@ -7,11 +7,33 @@
     <meta content="" name="keywords">
     <meta content="Dubinsko Pranje" name="description">
 
+    <!-- SEO -->
+    <meta name="author" content="Dragoslav Predojevic">
+    <meta name="publisher" content="http://www.dubinsko-ms.ga">
+    <meta name="description" content="Author: D.P. Author,
+    Web Developer: Dragoslav Predojevic, Category: Website,Length: 7 pages">
+    <meta name="image_src" content="/img/intro-carousel/1.jpg" />
+    <meta name="image_url" content="http://www.dubinsko-ms.ga/img/intro-carousel/1.jpg" />
+
     <meta property="og:title" content="Dubinsko Pranje" />
-    <meta property="og:url" content="dubinsko-ms.ga" />
-    <meta property="og:description" content="SERVIS ZA PRUŽANJE PROFESIONALNIH USLUGA DUBINSKOG PRANJA NAMEŠTAJA, VOZILA, ITISONA I ODRŽAVANJE POSLOVNIH PROSTORA. USLUGE PRANJA OBAVLJAMO PROFESIONALNIM MAŠINAMA UZ UPOTREBU NAJKVALITETNIJIH SREDSTAVA ZA PRANJE KAKO BI POSTIGLI VRHUNSKE REZULTATE. HVALA NA POSETI !!! ">
-    <meta property="og:image" content="/img/portfolio/1.jpg">
-    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.dubinsko-ms.ga" />
+    <meta property="og:description" content="Servis za pruzanje profesionalnih usluga!!! ">
+    <meta property="og:image" content="/img/intro-carousel/1.jpg">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Dubinsko Pranje"/>
+    <meta property="og:locale" content="sr_SR" />
+    <meta property="og:locale" content="en_EN" />
+
+    <!-- Google+ / Schema.org -->
+    <meta itemprop="name" content="Dubinsko Pranje">
+    <meta itemprop="headline" content="Dubinsko Pranje">
+    <meta itemprop="description" content="Servis za pruzanje profesionalnih usluga!!!">
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Dubinsko Pranje">
+    <meta name="twitter:url" content="http://www.dubinsko-ms.ga">
+    <meta name="twitter:description" content="Servis za pruzanje profesionalnih usluga!!!">
+    <meta name="twitter:image" content="/img/intro-carousel/1.jpg">
 
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon">
