@@ -4,6 +4,7 @@
             <div class="box">
                 <div class="section-header">
                     <h2>Cene</h2>
+                    <a href="add_price.php" id="add-price-list" class="btn btn-outline-dark mb-2"><i class="ion-android-add-circle"></i> Dodaj</a>
                 </div>
                 <div class="row">
                     <div class="col-lg-12 col-md-6">
@@ -17,7 +18,7 @@
                                             <th scope="col">Usluge</th>
                                             <th scope="col">Cena</th>
                                             <th scope="col"></th>
-                                            <th scope="col"><a href="add_price.php" class="btn btn-outline-dark mb-2"><i class="ion-android-add-circle"></i> Dodaj</a</th>
+                                            <th scope="col"><a href="add_price.php" class="btn btn-outline-dark mb-2"><i class="ion-android-add-circle"></i> Dodaj</a></th>
                                         </tr>
                                         </thead>
                                         <tbody>

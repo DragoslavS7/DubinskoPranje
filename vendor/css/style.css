@@ -1776,6 +1776,9 @@ hr {
 .section-header #add-to-pix{
   display: none;
 }
+  .section-header #add-price-list{
+    display: none;
+  }
 }
 
 

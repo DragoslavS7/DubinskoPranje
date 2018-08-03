@@ -366,7 +366,7 @@ $(document).ready(function(){
         background(mins);
     },5000);
 
-
+    /*if more then value one than disabled*/
     var disabled = $('.table .add_col');
     var dis      = $('.section-header #add-to-pix');
     if(disabled.data("quantity") > 0 && dis.data("val") > 0) {
