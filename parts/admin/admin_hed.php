@@ -59,7 +59,7 @@ $Session->start(); $Session->redirectAdmin('admin','../../loginForm.php');
                         <li><a href="#"><?php echo $user->profile('name'); ?></a></li>
                         <li><a href="#"><?php echo $user->profile('pass'); ?></a></li>
                         <li><a href="#"><?php echo $user->profile('create_at'); ?></a></li>
-                        <li><a href="#" class="delete_session btn btn-outline-dark mb-2" id="delete_session">Izloguj se</a></li>
+                        <li><a class="delete_session btn btn-outline-dark mb-2" id="delete_session">Izloguj se</a></li>
                         <li><a href="../../" class="btn btn-outline-dark">Korisnik strana</a></li>
                     </ul>
                 </li>

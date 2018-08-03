@@ -1,6 +1,6 @@
 <?php require_once  'admin_hed.php'; ?>
 <section id="admin_change">
-    <div class="container">
+    <div class="container-fluid">
         <div class="box">
             <div class="section-header">
                 <h2>Dodati slike</h2>

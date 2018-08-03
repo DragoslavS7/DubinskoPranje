@@ -13,7 +13,7 @@
 
         <!-- Your like button code -->
         <div class="box text-center" style="margin-right: 35px;">
-            <div class="fb-like" data-href="https://dubinsko-ms.ga" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true">
+            <div class="fb-like" data-href="https://dubinsko-ms.ga" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true">
             </div>
         </div>
     </div>
